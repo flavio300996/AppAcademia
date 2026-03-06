@@ -141,7 +141,7 @@ app.route({
 
 // Run the server!
 try {
-  await app.listen({ port: Number(process.env.PORT ?? 3000) });
+  await app.listen({ port: Number(process.env.PORT ?? 3333) });
 } catch (err) {
   app.log.error(err);
   process.exit(1);
