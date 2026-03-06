@@ -1,0 +1,2 @@
+yarn dev //compilar o código
+npx prisma studio //compilar o bd (prisma)
