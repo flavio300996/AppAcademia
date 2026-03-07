@@ -13,6 +13,7 @@ import {
 import z from "zod";
 
 import { auth } from "./lib/auth.js";
+import { aiRoutes } from "./routes/ai.js";
 import { homeRoutes } from "./routes/home.js";
 import { statsRoutes } from "./routes/stats.js";
 import { userRoutes } from "./routes/user.js";
@@ -71,6 +72,7 @@ await app.register(workoutSessionRoutes, { prefix: "/workoutSessions" });
 await app.register(homeRoutes);
 await app.register(statsRoutes, { prefix: "/stats" });
 await app.register(userRoutes, { prefix: "/user" });
+await app.register(aiRoutes, { prefix: "/ai" });
 
 // Controller - Camada na qual estamos codando atualmente
 

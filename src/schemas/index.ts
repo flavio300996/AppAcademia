@@ -212,3 +212,12 @@ export const UpsertUserTrainDataResponseSchema = z.object({
 
 export const GetUserTrainDataResponseSchema =
   UserTrainDataResponseSchema.nullable();
+
+export const AIMessageSchema = z.object({
+  role: z.enum(["user", "assistant"]),
+  content: z.string(),
+});
+
+export const AIRequestSchema = z.object({
+  messages: z.array(AIMessageSchema),
+});
