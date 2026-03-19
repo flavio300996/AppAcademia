@@ -1466,9 +1466,9 @@ keyv@^4.5.4:
     json-buffer "3.0.1"
 
 kysely@^0.28.5:
-  version "0.28.11"
-  resolved "https://registry.npmjs.org/kysely/-/kysely-0.28.11.tgz"
-  integrity sha512-zpGIFg0HuoC893rIjYX1BETkVWdDnzTzF5e0kWXJFg5lE0k1/LfNWBejrcnOFu8Q2Rfq/hTDTU7XLUM8QOrpzg==
+  version "0.28.13"
+  resolved "https://registry.yarnpkg.com/kysely/-/kysely-0.28.13.tgz#fc36e99b0e17cb2a856674700b733d7e319c3d8b"
+  integrity sha512-jCkYDvlfzOyHaVsrvR4vnNZxG30oNv2jbbFBjTQAUG8n0h07HW0sZJHk4KAQIRyu9ay+Rg+L8qGa3lwt8Gve9w==
 
 leven@^4.0.0:
   version "4.1.0"
